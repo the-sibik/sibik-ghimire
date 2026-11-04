@@ -29,7 +29,7 @@ h2{font-size:clamp(2.1rem,5vw,3.5rem)}h3{font-size:1.25rem}p{margin:0 0 1rem}a{c
 .lab{font-size:.74rem;letter-spacing:.16em;font-weight:700;color:#8A6F3E;text-transform:uppercase;margin-bottom:16px;display:block}.lab b{margin-right:10px;color:var(--mu);font-weight:600}.sub{color:var(--mu);max-width:600px;margin-top:16px}
 :focus-visible{outline:2px solid var(--ac);outline-offset:3px}
 header{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:.35s;animation:dn .8s both}header.s{background:rgba(255,255,255,.96);box-shadow:var(--s2)}
-@keyframes dn{from{transform:translateY(-100%)}}@keyframes up{from{opacity:0;transform:translateY(26px)}}@keyframes fl{50%{transform:translateY(-12px)}}@keyframes mq{to{transform:translateX(-50%)}}@keyframes rt{from{opacity:0;transform:perspective(900px) rotateY(-14deg) translateX(30px)}}
+@keyframes dn{from{transform:translateY(-100%)}}@keyframes up{from{opacity:0;transform:translateY(26px)}}@keyframes mq{to{transform:translateX(-50%)}}@keyframes rt{from{opacity:0;transform:perspective(900px) rotateY(-14deg) translateX(30px)}}
 .nb{display:flex;align-items:center;justify-content:space-between;height:72px;gap:16px}
 .br{text-decoration:none;font-weight:700;letter-spacing:.14em;font-size:.9rem;color:var(--navy);min-height:44px;display:flex;flex-direction:column;justify-content:center}.br small{font-size:.58rem;letter-spacing:.18em;color:var(--mu)}
 nav ul{display:flex;gap:24px;list-style:none;margin:0;padding:0;align-items:center}
@@ -50,7 +50,6 @@ nav .btn{min-height:40px;padding:0 18px;color:#fff;box-shadow:none}
 .ph{position:relative;aspect-ratio:4/5;background:linear-gradient(165deg,var(--navy2),var(--navy));overflow:hidden;box-shadow:var(--s3);transform:perspective(900px) rotateY(-4deg);transition:.6s}.stack:hover .ph{transform:none}
 .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 18%}
 .mono{position:absolute;inset:0;display:grid;place-content:center;text-align:center;font:7rem/1 'DM Serif Display',serif;color:var(--ac)}.mono small{font:600 .68rem Manrope;letter-spacing:.14em;color:#B9C4D2;margin-top:14px}
-.chip{position:absolute;z-index:3;background:#fff;box-shadow:var(--s3);padding:12px 16px;font-size:.72rem;font-weight:700;letter-spacing:.1em;color:var(--navy);animation:fl 6s ease-in-out infinite}.chip b{display:block;font:1.2rem 'DM Serif Display',serif;font-weight:400;letter-spacing:0;color:var(--ac)}
 .cr{margin-top:64px;padding-bottom:70px}.cr .g{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .cr small{display:block;font-size:.66rem;letter-spacing:.14em;color:var(--ac);font-weight:700;text-transform:uppercase;margin-bottom:6px}.cr b{font:1.1rem/1.3 'DM Serif Display',serif;font-weight:400;color:#fff}
 .ab{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:center}.ab p{color:#3C4756}.big{font:clamp(1.5rem,3vw,2.1rem)/1.3 'DM Serif Display',serif;color:var(--navy);padding-left:22px;border-left:3px solid var(--ac);margin:26px 0}.big em{font-style:normal;background:linear-gradient(transparent 62%,rgba(185,154,98,.35) 0)}
@@ -80,7 +79,7 @@ dialog{border:0;padding:0;max-width:700px;width:calc(100% - 32px);max-height:88v
 #pg{position:fixed;top:0;left:0;height:3px;background:var(--ac);width:0;z-index:60}#up{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:48px;height:48px;background:var(--navy);color:#fff;border:0;cursor:pointer;opacity:0;pointer-events:none;transition:.3s;z-index:40;box-shadow:var(--s3);font-size:1.1rem}#up:hover{transform:translateY(-4px)}#up.v{opacity:1;pointer-events:auto}
 .rv{opacity:0;transform:translateY(26px);transition:opacity .8s,transform .8s;transition-delay:var(--d,0s)}.rv.in{opacity:1;transform:none}
 @media(max-width:980px){.eg{grid-template-columns:1fr 1fr}.gal{grid-template-columns:1fr 1fr}.fg{grid-template-columns:1fr 1fr}}
-@media(max-width:760px){section{padding:68px 0}.hg,.ab,.ct,.ar{grid-template-columns:1fr;gap:40px}.stack{margin:0 auto;max-width:320px;padding-right:20px}.stack::after{display:none}.cr{margin-top:40px;padding-bottom:48px}.cr .g{grid-template-columns:1fr 1fr;gap:12px}.eg,.gal,.fg{grid-template-columns:1fr}.cd.f,.pj.wd{grid-column:auto}.pj.wd .pv svg{height:auto}.ap .pn+.pn{margin-left:14px}.ti{padding-left:28px}.ti .box{padding:20px}.hero h1{font-size:clamp(2.9rem,15vw,4rem)}.cta .btn{flex:1;justify-content:center}.chip{display:none}.mt{gap:36px}
+@media(max-width:760px){section{padding:68px 0}.hg,.ab,.ct,.ar{grid-template-columns:1fr;gap:40px}.stack{margin:0 auto;max-width:320px;padding-right:20px}.stack::after{display:none}.cr{margin-top:40px;padding-bottom:48px}.cr .g{grid-template-columns:1fr 1fr;gap:12px}.eg,.gal,.fg{grid-template-columns:1fr}.cd.f,.pj.wd{grid-column:auto}.pj.wd .pv svg{height:auto}.ap .pn+.pn{margin-left:14px}.ti{padding-left:28px}.ti .box{padding:20px}.hero h1{font-size:clamp(2.9rem,15vw,4rem)}.cta .btn{flex:1;justify-content:center}.mt{gap:36px}
 #mb{display:block}nav{position:absolute;top:100%;left:0;right:0;background:#fff;box-shadow:var(--s2);display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s;overflow:hidden}nav>ul{overflow:hidden;flex-direction:column;align-items:stretch;gap:0;padding:0 22px}nav.o{grid-template-rows:1fr}nav.o>ul{padding:8px 22px 22px}nav li a:not(.btn){display:flex;align-items:center;min-height:46px;border-bottom:1px solid var(--bd)}nav .btn{margin-top:12px;justify-content:center}}
 .hero{background:radial-gradient(circle at 82% 28%,rgba(185,154,98,.16),transparent 42%),repeating-linear-gradient(90deg,rgba(20,43,69,.03) 0 1px,transparent 1px 110px),#fff}
 .hero::before,.hero::after{content:"";position:absolute;border:1px solid rgba(185,154,98,.4);border-radius:50%;pointer-events:none}.hero::before{width:620px;height:620px;right:-170px;top:40px}.hero::after{width:380px;height:380px;right:-60px;top:160px;border-color:rgba(20,43,69,.08)}.hero .w{position:relative;z-index:1}
@@ -102,6 +101,50 @@ section:not(.hero) h2::after{content:"";display:block;width:56px;height:2px;back
 .tkg{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}.tkc{background:var(--alt);padding:16px;transition:.4s}.tkc:hover{transform:translateY(-5px);box-shadow:var(--s2);background:#fff}.tkc svg{width:28px;height:28px;stroke:var(--ac);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;transition:.5s}.tkc:hover svg{transform:rotate(-8deg) scale(1.12)}.tkc h4{font:1.05rem 'DM Serif Display',serif;color:var(--navy);margin:8px 0 4px;font-weight:400}.tkc p{font-size:.82rem;color:var(--mu);margin:0}
 .tkcode{font:600 .8rem/1.4 ui-monospace,Menlo,Consolas,monospace;background:var(--navy);color:var(--ac);padding:12px 14px;overflow-x:auto;white-space:nowrap}.tkcode::after{content:"\25CD";animation:bl 1s steps(1) infinite;margin-left:3px}@keyframes bl{50%{opacity:0}}.tk .pr{margin:14px 0 0}
 @media(max-width:620px){.tkg{grid-template-columns:1fr}.tk{padding:22px}}
+
+/* ===== HERO REFINEMENT (hero section only) ===== */
+@keyframes heroUp{from{opacity:0;transform:translateY(16px)}}
+@keyframes heroPortrait{from{opacity:0;transform:scale(.94)}}
+.hero{--pd:400px;padding:132px 0 0}
+.hero::before,.hero::after{display:none}
+.hero .hg{grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:48px;align-items:center}
+.hero .lab{margin-bottom:18px}
+.hero h1{font-size:clamp(2.9rem,6.2vw,5.2rem);line-height:1.04;letter-spacing:-.025em}
+.hero .dsc{font-size:1.02rem;letter-spacing:.05em;margin:18px 0 20px}
+.hero .hl{font-size:clamp(1.45rem,2.6vw,2.05rem);line-height:1.25;max-width:540px;margin-bottom:18px}
+.hero p.in{font-size:1.02rem;line-height:1.8;max-width:540px;margin-bottom:0}
+.hero .cta{margin:32px 0 24px;gap:14px}
+/* Portrait: small, circular, clean */
+.hero .stack{width:var(--pd);max-width:none;margin:0;justify-self:center;padding:0;aspect-ratio:1;animation:heroPortrait 1s cubic-bezier(.2,.7,.2,1) .3s both}
+.hero .stack::before{content:"";position:absolute;inset:-12px;border:1px solid rgba(185,154,98,.6);border-radius:50%;background:none;transform:none;transition:none;z-index:0}
+.hero .stack::after{content:"";display:block;position:absolute;inset:-42px;border:1px solid rgba(20,43,69,.08);border-radius:50%;z-index:0}
+.hero .stack:hover::before,.hero .stack:hover .ph{transform:none}
+.hero .ph{position:relative;z-index:1;width:100%;aspect-ratio:1;border-radius:50%;border:5px solid #fff;box-shadow:0 22px 44px rgba(20,43,69,.2),0 4px 14px rgba(20,43,69,.12);transform:none;transition:none}
+.hero .ph::after{content:none}
+.hero .ph img{object-position:50% 14%}
+.hero .mono{font-size:4.5rem}
+/* Text entrance */
+.hero .hz>*{animation:heroUp .8s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i)*.09s + .1s)}
+/* Buttons */
+.hero .btn{border-radius:9px;min-height:50px;padding:0 28px;box-shadow:0 6px 16px rgba(20,43,69,.18);transition:transform .25s ease,box-shadow .25s ease,background-color .25s ease,color .25s ease,border-color .25s ease}
+.hero .btn.o{box-shadow:0 2px 8px rgba(20,43,69,.08)}
+.hero .btn:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(20,43,69,.22)}
+.hero .btn:hover svg{transform:translateX(3px)}
+.hero .btn:active{transform:translateY(0) scale(.99)}
+@media(max-width:1024px){.hero{--pd:220px;padding-top:120px}.hero .hg{gap:32px}.hero .stack::before{inset:-10px}.hero .stack::after{inset:-30px}}
+@media(max-width:760px){
+.hero{--pd:180px;padding-top:104px}
+.hero .hg{grid-template-columns:minmax(0,1fr);gap:44px;text-align:center}
+.hero .stack{order:-1}.hero .stack::after{display:none}
+.hero h1{font-size:clamp(2.5rem,11.5vw,3.4rem)}
+.hero .dsc{font-size:.95rem;margin:14px 0 16px}
+.hero .hl{margin-left:auto;margin-right:auto}
+.hero p.in{margin-left:auto;margin-right:auto;font-size:1rem;line-height:1.75}
+.hero .cta{flex-direction:column;align-items:center;margin:28px 0 22px}
+.hero .cta .btn{flex:none;width:100%;max-width:320px}
+.hero .loc{justify-content:center}
+.hero .mono{font-size:3.5rem}}
+@media(prefers-reduced-motion:reduce){.hero .hz>*,.hero .stack{animation:none!important;opacity:1!important;transform:none!important}.hero .btn,.hero .btn svg{transition:none!important}}
 </style>
 </head>
 <body>
@@ -118,7 +161,7 @@ section:not(.hero) h2::after{content:"";display:block;width:56px;height:2px;back
 <div class="cta" style="--i:5"><a class="btn" href="#contact">Contact Me <svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a><a class="btn o" href="#projects">Explore My Work <svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a></div>
 <div class="loc" style="--i:6"><i></i>Based in Nepal</div></div>
 <div class="stack"><div class="ph"><div class="mono">SG</div>
-<picture id="pic"><source type="image/avif" srcset="images/sibik-ghimire-professional-portrait-480.avif 480w, images/sibik-ghimire-professional-portrait-900.avif 900w" sizes="(max-width:760px) 320px, 440px"><source type="image/webp" srcset="images/sibik-ghimire-professional-portrait-480.webp 480w, images/sibik-ghimire-professional-portrait-900.webp 900w" sizes="(max-width:760px) 320px, 440px">
+<picture id="pic"><source type="image/avif" srcset="images/sibik-ghimire-professional-portrait-480.avif 480w, images/sibik-ghimire-professional-portrait-900.avif 900w" sizes="(max-width:760px) 190px, 270px"><source type="image/webp" srcset="images/sibik-ghimire-professional-portrait-480.webp 480w, images/sibik-ghimire-professional-portrait-900.webp 900w" sizes="(max-width:760px) 190px, 270px">
 <img src="images/sibik-ghimire.jpg" alt="Portrait of Sibik Ghimire, CA Finalist and accounting professional from Nepal" width="900" height="1125" fetchpriority="high" decoding="async" onerror="document.getElementById('pic').remove()"></picture></div>
 </div></div>
 <div class="cr"><div class="w g" id="cg"></div></div></section>
@@ -126,7 +169,7 @@ section:not(.hero) h2::after{content:"";display:block;width:56px;height:2px;back
 <section id="about"><div class="w ab"><div class="ap rv" id="pil"></div><div class="rv"><span class="lab"><b>01</b>About</span><h2>Beyond the Numbers.</h2>
 <p class="big">Financial management is not only recording transactions. It is <em>understanding information</em> and supporting better decisions.</p>
 <p>Sibik Ghimire is a CA Finalist (CAP III) and Bachelor of Business Studies graduate working as an Audit Executive at M. B. Pande &amp; Co., Chartered Accountants.</p>
-<p>His interests span financial reporting and analysis, accounting systems and technology, supported by analytical thinking and a habit of continuous learning and professional development.</p><div class="tk rv"><small>Technical interests</small><h3>Where finance meets code.</h3><p>I’m just as curious about the technology behind the numbers: how systems are built, how data moves, and how a little programming can turn routine finance work into something faster and clearer.</p><div class="tkg"><div class="tkc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H4zM9 20h6M12 16v4"/></svg><h4>IT &amp; Systems</h4><p>How business systems, data and tools fit together.</p></div><div class="tkc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"/></svg><h4>Programming</h4><p>Python and PHP for automating work and exploring data.</p></div><div class="tkc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3zM3 9h18M7 7h.01M10 7h.01"/></svg><h4>Web Development</h4><p>Frontend and backend: clean, fast, useful websites.</p></div></div><div class="tkcode" aria-hidden="true">def clarity(numbers): return insight</div><div class="pr"></div></div></div></div></section>
+<p>His interests span financial reporting and analysis, accounting systems and technology, supported by analytical thinking and a habit of continuous learning and professional development.</p><div class="tk rv"><small>Technical interests</small><h3>Where finance meets code.</h3><p>I’m just as curious about the technology behind the numbers: how systems are built, how data moves, and how a little programming can turn routine finance work into something faster and clearer.</p><div class="tkg"><div class="tkc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H4zM9 20h6M12 16v4"/></svg><h4>IT &amp; Systems</h4><p>How business systems, data and tools fit together.</p></div><div class="tkc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"/></svg><h4>Programming</h4><p>Python and PHP for automating work and exploring data.</p></div><div class="tkc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3zM3 9h18M7 7h.01M10 7h.01"/></svg><h4>Web Development</h4><p>Frontend and backend: clean, fast, useful websites.</p></div></div><div class="tkcode" aria-hidden="true">def clarity(numbers): return insight</div><div class="pr"><span>Python</span><span>PHP</span><span>Frontend</span><span>Backend</span><span>and more</span></div></div></div></div></section>
 
 <section id="expertise" class="alt"><div class="w"><span class="lab"><b>02</b>Expertise</span><h2>Professional Expertise.</h2><p class="sub">Accounting fundamentals, financial understanding and digital tools.</p><div class="eg" id="eg"></div></div></section>
 
